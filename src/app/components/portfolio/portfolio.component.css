@@ -1,0 +1,104 @@
+.navbar {
+  opacity: 2;
+  margin-bottom: 2%;
+  background-color: #222020;
+}
+
+.miImagen {
+  border-radius: 1rem;
+  border: 2px outset aliceblue;
+  box-shadow: 3px -1px 18px 2px rgb(0, 0, 0);
+}
+
+.contenedorImagen {
+  margin-right: 1.5%;
+}
+
+.contenidoPerfil {
+  border: 2px outset aliceblue;
+  box-shadow: 3px -1px 18px 2px rgb(0, 0, 0);
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 1%;
+}
+
+.infoPerfil {
+  padding: 0.3%;
+}
+
+.navbar {
+  border-bottom: 2px solid #2B67CF;
+  background-image: url(../../../assets/img/Header/FondoDeLuna.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.list-group-item {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.list-item:hover {
+  background-color: #1a1a1a;
+  transition: all 0.7s;
+  border-left: #ffffff solid 2px;
+  border-bottom: #ffffff solid 2px;
+}
+
+h3 {
+  border: #2B67CF 2px double;
+  border-radius: 0.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+article {
+  background-color: #000000;
+  border-radius: 0.5rem;
+  border: #0A5FF3 solid 2px;
+  opacity: 0.7;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.experiencia {
+  margin-top: 0.5rem;
+}
+
+.experiencia-section {
+  padding-left: 30px;
+}
+
+.col-contenedor-menu {
+  padding-right: 0;
+}
+
+.footer-contenido {
+  min-height: 22vh;
+  display: flex;
+  justify-content: center;
+}
+
+.igicon {
+  background: linear-gradient(#ff00ff, #ff0066, #ff0000, #ff9933);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-left: 5px;
+}
+
+.linkicon {
+  background: linear-gradient(#66a3ff, #005ce6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.giticon {
+  color: #000000;
+}
+
+i {
+  margin-right: 5px;
+}/*# sourceMappingURL=portfolio.component.css.map */

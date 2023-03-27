@@ -1,0 +1,29 @@
+.card {
+  background-color: #0A5FF3;
+  text-align: center;
+}
+
+.card-section {
+  margin: 0.5rem;
+}
+
+.card-img-top {
+  border: #000000 2px solid;
+  margin-top: 0.5rem;
+}
+
+.carousel {
+  border: #2B67CF 2px double;
+  padding: 0.8px;
+  margin-left: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.carousel-caption {
+  background-color: black;
+  opacity: 0.3;
+}
+
+thead {
+  color: white;
+}/*# sourceMappingURL=experiencias.component.css.map */

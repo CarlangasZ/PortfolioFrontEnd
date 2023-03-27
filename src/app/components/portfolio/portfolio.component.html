@@ -1,0 +1,134 @@
+<!--Header Starts-->
+
+<header>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand">Menu Guia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-house-door-fill"></i>Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/experiencias" class="nav-link"><i class="bi bi-award-fill"></i>Anime Argentina</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/educacion" class="nav-link"><i class="bi bi-mortarboard"></i>Cursos y Educacion</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/habilidades" class="nav-link"><i class="bi bi-person-lines-fill"></i>Habilidades</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!--Header ends-->
+
+<!--Section Starts-->
+
+<section>
+  <div class="container">
+    <div class="row">
+
+      <!-- About me start -->
+
+      <div class="col-md-12">
+        <div class="row">
+          <div class="articulos aparecerDesdeIzquierda">
+
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 d-flex">
+                  <img src="../../../assets/img/Section/HombreIdea.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 flex-wrap">
+                  <div class="card-body aparecer">
+                    <h5 class="card-title">Sobre mi:</h5>
+                    <p class="card-text"> Me gustaria decir que soy una <span class="spanPersona"><i
+                          class="bi bi-person-fill"></i>persona</span> muy capaz, puesto que a la
+                      hora de dedicarme a algo siempre encuentro la forma
+                      de alcanzar mi <span class="spanObjetivo"><i class="bi bi-check-lg"></i>objetivo</span>, tambien
+                      quería agregar que elegi
+                      estudiar programación porque siento que el hecho de
+                      escribir unas cuantas lineas y que con solo eso sea capaz de
+                      hacer <i class="bi bi-magic"></i><span class="spanMagia">"magia"</span> en cierta forma, me llena
+                      de alegria,
+                      tambien me hace feliz tener la sensacion de logro y superacion
+                      cuando resuelvo un <span class="spanProblema"><i class="bi bi-bug"></i>problema</span> que me
+                      tenia atascado
+                      hace dias.</p>
+                  </div>
+                  <div class="card-body aparecer">
+                    <h5 class="card-title">Un poco sobre la pagina:</h5>
+                    <p class="card-text">Al día de hoy llevo estudiando durante 3 años programación web,
+                      he estudiado lógica en <span class="spanJava">Java</span>, estudie modulacion en
+                      <i class="bi bi-code-square"></i><span class="spanAng">Angular</span>, aprendí a crear una API con
+                      <i class="bi bi-power"></i>
+                      <span class="spanSB">Spring Boot</span>
+                      y a utilizar el diseño de grillas de
+                      <i class="bi bi-bootstrap-fill"></i><span class="spanBst">Boostrap</span>, a crear y
+                      manejar una base de datos <i class="bi bi-database"></i><span class="spanSQL">SQL</span> con la
+                      ayuda de la API, aprendí
+                      muchísimas cosas y todo lo que aprendí trate de incluirlo de la
+                      mejor manera posible en este <i class="bi bi-briefcase-fill"></i><span
+                        class="spanPort">Portfolio</span>.
+                    </p>
+                    <a
+                      href="https://www.freepik.es/vector-gratis/hombre-muestra-gesto-gran-idea_10541562.htm#query=persona%20inteligente&position=0&from_view=keyword&track=ais">Imagen
+                      de syarifahbrit</a> en Freepik.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- About me end -->
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12 col-contenido">
+    <div class="experiencias-container">
+      <router-outlet></router-outlet>
+      <router-outlet name="experienciasOutlet"></router-outlet>
+    </div>
+  </div>
+
+</section>
+
+<!--Section Ends-->
+
+<!--Footer starts-->
+
+<footer>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-contenido">
+          <p>&copy; 2023 Carlos Heredia | Redes: </p>
+          <a href="https://www.instagram.com/lecarlangas/?hl=es" title="igIcon"> <i class="bi bi-instagram igicon"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/carlos-heredia-22873720a/" title="linkIcon"> <i
+              class="bi bi-linkedin linkicon"></i> </a>
+          <a href="https://github.com/CarlangasZ" title="gitIcon"> <i class="bi bi-github giticon"></i></a>
+          <a href="mailto:Carlodherefia308@gmail.com" title="igIcon"><i class="bi bi-envelope-at-fill"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+<!--Footer ends-->

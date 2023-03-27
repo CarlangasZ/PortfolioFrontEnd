@@ -1,0 +1,30 @@
+<div class="container aparecerDesdeIzquierda">
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Curso/Nivel Educativo</th>
+            <th scope="col">Descripcion</th>
+            <th scope="col">Fecha de inicio</th>
+            <th scope="col">Fecha de finalizacion</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let experiencia of experiencias">
+            <td>{{ experiencia.id }}</td>
+            <td><i class="bi bi-book"></i> {{ experiencia.titulo }}</td>
+            <td>{{ experiencia.descripcion }}</td>
+            <td><i class="bi bi-calendar-range-fill"></i> {{ experiencia.fechaInicio }}</td>
+            <td><i class="bi bi-calendar-range-fill"></i> {{ experiencia.fechaFin }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
+         Mas sobre Argentina Programa <i class="bi bi-terminal-fill"></i></a>
+
+    </div>
+  </div>
+</div>
+

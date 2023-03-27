@@ -1,0 +1,93 @@
+//Table modifications start
+
+table{
+
+  color: #ffffffff;
+
+}
+
+.aparecerDesdeIzquierda{
+
+  opacity: 0;
+  animation-name: aparecerDesdeIzquierda;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes aparecerDesdeIzquierda {
+
+  from {
+
+    opacity: 0;
+    transform: translateX(-100%);
+
+  } to {
+
+    opacity: 1;
+    transform: translateX(0%);
+
+  }
+
+}
+
+//Th decoration start
+
+th{
+
+  background-color:  #333333;
+
+}
+
+//Th decorations end
+
+//Td decorations start
+
+.bi-book{
+
+  background: linear-gradient(#ff9933, #663300);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
+.bi-calendar-range-fill{
+
+  background: linear-gradient(#ff9933, #663300);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
+.bi-terminal-fill{
+
+  color: #003366;
+
+}
+
+td{
+
+  background-color: #595959;
+
+}
+
+//Td decorations end
+
+.btn{
+
+  background-color: #0073e6;
+  border: 2px solid #000000;
+  color: #ffffffff;
+
+}
+
+.bi-box-arrow-righ{
+
+  color: #000066;
+
+}
+
+//Table modifications end

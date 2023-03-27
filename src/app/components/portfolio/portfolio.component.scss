@@ -1,0 +1,273 @@
+//Sass and general modifications start
+
+//Sass and general modifications end
+
+//Header modification starts
+
+header{
+
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 1;
+
+}
+
+.navbar{
+
+  border-bottom: 2px solid #2B67CF;
+  background-image: url(../../../assets/img/Header/FondoDeLuna.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.nav-link, .navbar-brand{
+
+  color: #ffffffff;
+
+}
+
+//Header modifications ends
+
+
+//Section modification starts
+
+//About me section start
+
+h3{
+  border:#2B67CF 2px double;
+  border-radius: 0.5rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 0.5rem;
+}
+
+.articulos{
+
+  padding-top: 7%;
+
+}
+
+.nav-item{
+
+  color: #ffffffff;
+
+}
+
+.card-body{
+
+  background-color: #333333;
+
+}
+
+.card-text{
+
+  background-color: #262626;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+
+}
+
+.spanPersona{
+
+  color: #00004d;
+
+}
+
+.spanObjetivo{
+
+  color: #33adff;
+
+}
+
+.bi-magic{
+
+  background: linear-gradient(to bottom,#ff3300, #ffff00,#ffb84d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
+.spanMagia{
+
+  background: linear-gradient(to bottom,#ff3300, #ffff00,#ffb84d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
+.spanProblema{
+
+  color: #004d1a;
+
+}
+
+.spanPort{
+
+  color: #000066;
+
+}
+
+.bi-briefcase-fill{
+
+  color: #000066;
+
+}
+
+.spanAng{
+
+  color: #ff0000;
+
+}
+
+.bi-code-square{
+
+  color: #ff0000;
+
+}
+
+.spanBst{
+
+  color: #9900cc;
+
+}
+
+.bi-bootstrap-fill{
+
+  background: linear-gradient(#ff00ff,#9900cc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
+.spanSB{
+
+  color: #00ff00;
+
+}
+
+.bi-power{
+
+  background: linear-gradient(#00ff00, #00cc00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
+.spanSQL{
+
+  color: #005ce6;
+
+}
+
+.bi-database{
+
+  color: #005ce6;
+
+}
+
+
+.aparecerDesdeIzquierda{
+
+  opacity: 0;
+  animation-name: aparecerDesdeIzquierda;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes aparecerDesdeIzquierda {
+
+  from {
+
+    opacity: 0;
+    transform: translateX(-100%);
+
+  } to {
+
+    opacity: 1;
+    transform: translateX(0%);
+
+  }
+
+}
+.aparecer{
+
+  opacity: 0;
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes aparecer {
+
+  from {
+
+    opacity: 0;
+
+  } to {
+
+    opacity: 1;
+
+  }
+
+}
+
+
+//About me section end
+
+//Section modifications ends
+
+
+
+
+//Footer modifications starts
+
+.footer-contenido{
+
+  min-height: 22vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+.igicon{
+
+  background: linear-gradient(#ff00ff,#ff0066, #ff0000, #ff9933);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-left: 5px;
+
+}
+
+.linkicon{
+
+  background: linear-gradient(#66a3ff, #005ce6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
+.giticon{
+
+  color: #000000;
+
+}
+
+i{
+
+  margin-right: 5px;
+
+}
+
+//Footer modification ends

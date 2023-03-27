@@ -28,9 +28,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/styles.scss",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+               "node_modules/@popperjs/core/dist/umd/popper.min.js",
+               "node_modules/bootstrap/dist/js/bootstrap.js",
+               "node_modules/bootstrap/dist/js/bootstrap.js",
+               "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -100,8 +109,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "59c22b59-1b63-4723-9fcd-b2612ba86345"
   }
 }

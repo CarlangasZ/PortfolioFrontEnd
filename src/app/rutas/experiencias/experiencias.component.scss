@@ -1,0 +1,88 @@
+//Sass modification start
+
+$carousel-indicator-width:           40px;
+$carousel-control-color:             #2B67CF;
+$carousel-control-opacity:           .8;
+
+//Sass modification end
+
+//General modification start
+
+.aparecerDesdeArriba{
+
+  opacity: 0;
+  animation-name: aparecerDesdeArriba;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes aparecerDesdeArriba {
+
+  from {
+
+    opacity: 0;
+    transform: translateY(-100%);
+
+  } to {
+
+    opacity: 1;
+    transform: translateY(0%);
+
+  }
+
+}
+
+//General modification end
+
+//Card modification start
+
+.card{
+
+  background-color: #0A5FF3;
+
+}
+
+
+.card-img-top{
+
+  border: #000000 2px solid;
+  margin-top: 0.3rem;
+
+}
+
+.btn{
+
+  border: 2px solid #000000;
+  color: #ffffffff;
+  box-shadow: 3px -4px #000066;
+
+}
+
+.btn:hover{
+
+  background-color: #1a1aff;
+  transition: 0.5s;
+
+}
+
+//Card modifications end
+
+//Carousel modifications start
+
+.carousel{
+
+  border: #2B67CF 2px double;
+  padding: 0.8px;
+  border-radius: 0.5rem;
+
+}
+
+.carousel-caption{
+
+  opacity: .3;
+
+}
+
+//Carousel modification end
