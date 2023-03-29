@@ -8,7 +8,7 @@ import { Experiencia } from './experiencia';
 })
 export class ExperienciaService {
 
-  private apiURL = 'http://localhost:8080/experiencias';
+  private apiURL = 'https://portfoliobackend-ijlb.onrender.com';
 
   constructor(private http: HttpClient) { }
 

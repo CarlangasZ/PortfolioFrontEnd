@@ -1,1 +1,63 @@
-/*# sourceMappingURL=habilidades.component.css.map */
+.aparecerDesdeDerecha {
+  opacity: 0;
+  animation-name: aparecerDesdeDerecha;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes aparecerDesdeDerecha {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+.container {
+  background-color: #333333;
+  border-radius: 0.5rem;
+  border: 3px double #000000;
+  padding: 0.5rem;
+}
+
+p {
+  background-color: #262626;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+.habilidad1 h6 {
+  background-color: #1a1a1a;
+  border-radius: 0.2rem;
+  padding: 0.1rem;
+  max-width: 200px;
+}
+
+.habilidad2 h6 {
+  background-color: #1a1a1a;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  max-width: 100px;
+}
+
+.habilidad3 h6 {
+  background-color: #1a1a1a;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  max-width: 110px;
+}
+
+.habilidad4 h6 {
+  background-color: #1a1a1a;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  max-width: 90px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=habilidades.component.css.map */

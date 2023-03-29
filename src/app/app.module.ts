@@ -10,7 +10,6 @@ import { ExperienciasComponent } from './rutas/experiencias/experiencias.compone
 import { EducacionComponent } from './rutas/educacion/educacion.component';
 import { HabilidadesComponent } from './rutas/habilidades/habilidades.component';
 import { FormsModule } from '@angular/forms';
-import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,7 @@ import { LoginComponent } from './login/login.component';
     ExperienciasComponent,
     EducacionComponent,
     HabilidadesComponent,
-    LoginComponent
+
   ],
   imports: [
     BrowserModule,
